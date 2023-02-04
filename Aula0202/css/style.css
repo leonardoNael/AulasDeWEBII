@@ -1,4 +1,41 @@
-.nav-item nav-link
+.nav-link.nav-item
 {
     color: #fff;
+}
+.tabelaDisco
+{
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    display: flex; 
+    flex-direction: row;
+    
+}
+.content
+{
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.images
+{
+    padding-top: 3%;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    display: flex; 
+    flex-direction: row;
+}
+h2
+{
+    padding-top: 3%;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    display: flex; 
+    flex-direction: row;  
 }
