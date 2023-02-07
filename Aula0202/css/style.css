@@ -1,5 +1,5 @@
 .nav-link.nav-item{
-    color: #fff;
+    color: #c5c6d0;
 }
 
 .bg-dark.navbar-dark.navbar{
@@ -55,6 +55,13 @@ main{
 -moz-transform: scale(1.2);
 -webkit-transform: scale(1.2);
 transform: scale(1.2);
+}
+
+.nav-link.nav-item:hover{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    color: #fff;
 }
 
 .pcomfoto{
