@@ -1,7 +1,13 @@
 .navbar{
     width: 100%;
     background-color: #282828;
-} 
+}
+
+#active{
+    border: 1px #f0e68c solid;
+    font-size: larger;
+}
+
 .nav-item{
     color: #f0e68c;
     font-size: large;
@@ -20,7 +26,6 @@
 
 .crsImg{
     text-align: center;
-
 }
 
 .setaesquerda{
