@@ -7,7 +7,7 @@ var imgs = ["img/bike.jpeg", "img/violao.jfif", "img/carro.jfif", "img/mae.jpg",
 function imganterior(){
     while(anterior < (anteriorP+1)){
         document.getElementById("imgopc").src = imgs[anterior];
-        document.getElementById("imgopc").style.width = "300px";
+        document.getElementById("imgopc").style.width = "300px"
         anterior++;
     }
 

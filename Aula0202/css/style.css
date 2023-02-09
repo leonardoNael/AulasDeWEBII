@@ -18,13 +18,29 @@
     transform: scale(1.1);
 }
 
+.crsImg{
+    text-align: center;
+
+}
+
+.setaesquerda{
+    float: left;
+    padding-left: 40%;
+}
+
+.setadireita{
+    float: right;
+    padding-right: 40%;
+}
+
+
 .direitos{
     align-self: center;
     align-content: center;
     justify-content: center;
     display: flex; 
     flex-direction: row;
-    padding-bottom: 1%;
+    padding-bottom: 1.3%;
     padding-top: 1%;
     background-color: #e7eaea;
 }
@@ -102,7 +118,6 @@ transform: scale(1.2);
     justify-items: center;
     display: flex;
     float: right;
-
     padding-left: 1%;
     padding-right: 10%;
 }
