@@ -1,32 +1,22 @@
-var anterior = 0;
-var anteriorP = 0;
-var proxima = 4;
-var proximaP = 4;
-var imgs = ["img/pai.jpg", "img/mae.jpg", "img/carro.jpg",  "img/bike.jpeg", "img/violao.jpg"];
+var imgAtual = -1;
+var imgs = ["img/violao.jpg", "img/bike.jpeg", "img/carro.jpg", "img/mae.jpg", "img/pai.jpg"];
 
 function imganterior(){
-    while(anterior < (anteriorP+1)){
-        document.getElementById("imgopc").src = imgs[anterior];
-        anterior++;
+    if(imgAtual == 0){
+        imgAtual = 4;
+        document.getElementById("imgopc").src = imgs[imgAtual];
     }
-
-    anteriorP++;
-    if (anteriorP > 4){
-        anteriorP = 0;
-        anterior = 0;
+    else{
+        imgAtual--;
+        document.getElementById("imgopc").src = imgs[imgAtual];
     }
-
 }
 
 function proximg(){
-    while(proxima > (proximaP-1)){
-        document.getElementById("imgopc").src = imgs[proxima];
-        proxima--;
+    if(imgAtual == 4){
+        imgAtual = -1;
     }
-    proximaP--;
-    if (proximaP < 0){
-        proximaP = 4;
-        proxima = 4;
-    }
+    imgAtual++;
+    document.getElementById("imgopc").src = imgs[imgAtual];
+    document.getElementById("setaesquerda").style.visibility = "visible";
 }
-
