@@ -26,6 +26,12 @@
     transform: scale(1.1);
 }
 
+.topo{
+    position: fixed;
+    right: 2.5%;
+    bottom: 7%;
+}
+
 .crsImg{
     text-align: center;
 }
@@ -63,6 +69,7 @@
 }
 
 .content{
+    text-align: justify;
     padding-left: 10%;
     padding-right: 10%;
 }

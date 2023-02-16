@@ -1,6 +1,10 @@
 var imgAtual = -1;
 var imgs = ["img/violao.jpg", "img/bike.jpeg", "img/carro.jpg", "img/mae.jpg", "img/pai.jpg"];
 
+function topo(){
+    window.scrollTo(0, 0);
+}
+
 function imganterior(){
     if(imgAtual == 0){
         imgAtual = 4;
